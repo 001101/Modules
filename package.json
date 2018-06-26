@@ -1,0 +1,25 @@
+{
+  "name": "human-connection-modules",
+  "version": "1.0.0",
+  "description": "Human-Connection Modules",
+  "main": "modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Human-Connection/Modules.git"
+  },
+  "author": {
+    "name": "Human Connection gGmbH",
+    "email": "developer@human-connection.org"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/Human-Connection/Modules/issues"
+  },
+  "homepage": "https://github.com/Human-Connection/Modules#readme",
+  "keywords": [
+    "human-connection"
+  ]
+}
