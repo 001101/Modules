@@ -1,5 +1,5 @@
-import socialChannels from './social-channels'
-import organizationTypes from './organization-types'
+const socialChannels = require('./social-channels')
+const organizationTypes = require('./organization-types')
 
 const lists = {
   socialChannels,
@@ -13,7 +13,7 @@ class Collection {
   }
 }
 
-export default Object.keys(lists)
+module.exports = Object.keys(lists)
   .reduce((key, collections) => {
     collections[key] = new Collection(lists[key])
     return collections

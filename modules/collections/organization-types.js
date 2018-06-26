@@ -1,4 +1,4 @@
-export default list = {
+module.exports = {
   'ngo': {},
   'npo': {},
   'goodpurpose': {},

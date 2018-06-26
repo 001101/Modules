@@ -1,5 +1,5 @@
-import collections from './collections'
+const collections = require('./collections')
 
-export default {
+module.exports = {
   collections
 }

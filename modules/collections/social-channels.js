@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   'facebook': {
     url: 'https://www.facebook.com'
   },
