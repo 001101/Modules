@@ -14,7 +14,7 @@ class Collection {
 }
 
 module.exports = Object.keys(lists)
-  .reduce((key, collections) => {
+  .reduce((collections, key) => {
     collections[key] = new Collection(lists[key])
     return collections
   }, {})
