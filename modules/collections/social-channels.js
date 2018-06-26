@@ -1,4 +1,4 @@
-const list = {
+export default {
   'facebook': {
     url: 'https://www.facebook.com'
   },
@@ -15,11 +15,4 @@ const list = {
   'yahoo': {},
   'skype': {},
   'meetup': {}
-}
-
-export default {
-  list,
-  names: (() => {
-    return Object.keys(list).sort()
-  })()
 }
